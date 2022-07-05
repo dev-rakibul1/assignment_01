@@ -1,0 +1,159 @@
+/* Callign google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* Reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section-gap {
+  padding-top: 100px;
+}
+
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/* global btn */
+.section-btn {
+  text-decoration: none;
+  background-color: #ff5959;
+  color: #fff;
+  padding: 12px 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* global title */
+.section-title {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 35px;
+  color: #121212;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.section-title p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #707070;
+}
+
+::placeholder {
+  color: #b3b3b3;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Hero area styling */
+.hero-area {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.124), rgb(0, 0, 0)),
+    url("./images/images/donation4.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  padding: 150px 0;
+}
+
+/* hero article */
+
+.hero-article {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-area h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 52px;
+}
+
+.hero-area p {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 23px;
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+/* Start dounate fee area styleing */
+
+/* Dounate list */
+
+.dounate-list {
+  margin-top: 50px;
+}
+.dounate-list .flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dounate-list .flex li {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.dounate-list .flex li:nth-child(2) {
+  border: 1px solid #ff5959;
+  border-radius: 3px;
+  color: #ff5959;
+}
+
+/* Dounate box */
+.dounate-box {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  border-bottom: 1px solid #dadada !important;
+  border: none;
+  width: 500px;
+  max-width: 100%;
+  outline: none;
+  padding: 10px;
+}
+
+.dounate-btn {
+  text-align: center;
+  margin-top: 50px;
+}
