@@ -1,7 +1,9 @@
 /* Callign google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap");
 
-/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Lobster Two', cursive; */
 
 /* Reset css */
 * {
@@ -12,6 +14,8 @@
 body {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  transition: 0.5s all ease-in-out;
 }
 
 .container {
@@ -24,6 +28,9 @@ body {
 
 .section-gap {
   padding-top: 100px;
+}
+.sp {
+  padding: 20px;
 }
 
 li {
@@ -74,6 +81,13 @@ a {
   font-size: 16px;
   padding: 10px;
   text-align: center;
+}
+
+svg {
+  width: 35px;
+}
+path {
+  fill: red;
 }
 
 /* Hero area styling */
@@ -156,4 +170,165 @@ input {
 .dounate-btn {
   text-align: center;
   margin-top: 50px;
+}
+
+/* Dounate plan */
+
+.plan-box {
+  display: flex;
+  margin-top: 50px;
+}
+
+.plan-box-single-item {
+  max-width: 31%;
+  margin-right: 2.34%;
+}
+
+.plan-box-single-item:last-child {
+  margin-right: 0;
+}
+
+.plan-box-single-item h4 {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 12px;
+  color: #121212;
+}
+
+.plan-box-single-item p {
+  color: #707070;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.plan-box-single-item .plan-article {
+  padding: 30px 9px;
+}
+
+#first-bg {
+  background: #edf5f6;
+}
+
+#second-bg {
+  background: #ffeeee;
+}
+#third-bg {
+  background: #fff4d6;
+}
+
+/* Contribute area */
+.contribute-single-box {
+  display: flex;
+  justify-content: center;
+  background-color: #222931;
+  align-items: center;
+}
+
+.contribute-imagesTwo,
+.contribute-aricle,
+.contribute-images {
+  width: 50%;
+}
+.contribute-aricle {
+  width: 50%;
+  /* padding-left: 150px;
+  padding-right: 15px; */
+}
+
+.contribute-images {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(./images/images/children2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 500px;
+  height: 450px;
+}
+
+.contribute-imagesTwo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(./images/images/donation13.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 500px;
+  height: 450px;
+}
+
+.contribute-aricle h3 {
+  font-size: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.contribute-aricle p {
+  color: rgb(219, 214, 214);
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 26px;
+  font-size: 15px;
+}
+
+.contribute-aricle .sp {
+  border-left: 1px solid rgb(121 121 121);
+  padding-left: 55px;
+  margin-left: 30px;
+  height: 64px;
+  padding-top: 0px;
+}
+
+/* Subscribe area */
+.subscribe-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 78px;
+  background-color: #fff4d6;
+  margin-top: 50px !important;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.subscribe-box input[type="email"] {
+  width: 35%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+
+.subscribe-box ::placeholder {
+  text-align: left;
+}
+
+button.subscribe-btn {
+  padding: 12px 20px;
+  margin: 0;
+  margin-left: -6px;
+  background: rgb(255, 89, 89);
+  border: 2px solid rgb(255, 89, 89);
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background-color: #0b0d17;
+  padding: 35px 10px 20px;
+  margin-top: 100px;
+}
+
+.footer h3 {
+  font-family: "Lobster Two", cursive;
+  color: #ff5959;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 11px;
 }
